@@ -1,24 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import { Grid, Typography } from '@mui/material';
+
+import TimeToBaby from './components/TimeToBaby';
+import TimeForCountry from './components/TimeForCountry';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Grid container justifyContent='center' spacing={3} my={3}>
+      <Grid item xs={12} my={3}>
+        <Typography textAlign='center' variant='h2'>Time for babies and country</Typography>
+      </Grid>
+      <TimeToBaby />
+      <TimeForCountry />
+    </Grid>
   );
 }
 
