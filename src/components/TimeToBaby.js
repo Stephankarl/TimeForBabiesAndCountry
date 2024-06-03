@@ -9,7 +9,7 @@ export default function TimeToBaby() {
     
     const dueDate = moment('2024-08-28')
     const today = moment()
-    const daysToBaby = dueDate.diff(today, 'days')
+    const daysToBaby = dueDate.diff(today, 'days') + 1
 
   return (
     <Grid container item xs={8} justifyContent='center' >
