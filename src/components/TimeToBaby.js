@@ -7,7 +7,7 @@ import moment from 'moment'
 
 export default function TimeToBaby() {
     
-    const dueDate = moment('2024-08-28')
+    const dueDate = moment('2024-08-30')
     const today = moment()
     const daysToBaby = dueDate.diff(today, 'days') + 1
 
