@@ -2,6 +2,8 @@ import { Grid, Typography } from '@mui/material';
 
 import TimeToBaby from './components/TimeToBaby';
 import TimeForCountry from './components/TimeForCountry';
+import TimeForParents from './components/TimeForParents';
+import TimeForSafari from './components/TimeForSafari';
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       </Grid>
       <TimeToBaby />
       <TimeForCountry />
+      <TimeForParents />
+      <TimeForSafari />
     </Grid>
   );
 }
