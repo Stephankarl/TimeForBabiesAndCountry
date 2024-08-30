@@ -9,7 +9,7 @@ export default function TimeForCountry() {
 
     const moveDate = moment('2024-10-01')
     const today = moment()
-    const daysToCountry = moveDate.diff(today, 'days') + 1
+    const daysToCountry = moveDate.diff(today, 'days') 
 
   return (
     <Grid container item xs={8} justifyContent='center' >

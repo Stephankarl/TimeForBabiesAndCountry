@@ -9,7 +9,7 @@ export default function TimeForSafari() {
 
     const arrivalDate = moment('2025-07-27')
     const today = moment()
-    const daysToArrival = arrivalDate.diff(today, 'days') + 1
+    const daysToArrival = arrivalDate.diff(today, 'days')
 
   return (
     <Grid container item xs={8} justifyContent='center' >

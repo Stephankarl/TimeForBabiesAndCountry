@@ -9,7 +9,7 @@ export default function TimeForParents() {
 
     const arrivalDate = moment('2024-12-18')
     const today = moment()
-    const daysToArrival = arrivalDate.diff(today, 'days') + 1
+    const daysToArrival = arrivalDate.diff(today, 'days')
 
   return (
     <Grid container item xs={8} justifyContent='center' >
