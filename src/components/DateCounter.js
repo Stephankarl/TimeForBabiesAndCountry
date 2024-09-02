@@ -10,7 +10,6 @@ export default function TimeForCountry({ date, title }) {
     const today = moment()
     const daysCount = eventDate.diff(today, 'days') 
 
-
     if(daysCount >= 0) {
         return (
             <Grid container item xs={8} justifyContent='center' >
